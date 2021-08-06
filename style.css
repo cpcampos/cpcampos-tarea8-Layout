@@ -1,0 +1,236 @@
+.mainx {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 32rem;
+    display: flex;
+    
+}
+
+.boxnav
+{background-color: teal;
+   align-items: center;
+    display: flex;
+     flex-direction: column; 
+     height: 100%; 
+     width: 20%;
+     justify-content:space-evenly;
+      padding: 8px;
+}
+.boxcontent
+{  flex: 1;  
+     height: 100%; 
+     width: 80%;
+   padding: 8px;
+   overflow: auto;
+}
+.navigation {
+    position: relative;
+}
+
+
+.navigation__circle1 {
+    /* Position */
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 9999px; 
+    color: rgb(255, 255, 255); 
+
+    /*
+    80px is the distance from the item to the trigger element.
+    Replace 0deg with 60deg, 180deg, 240deg, 300deg for another item
+    in case you want to have a total of 6 menu items.
+    The formulation is 360 / numberOfItems * indexOfItem
+    */
+    transform: rotate(0deg) translateX(-80px);
+
+    /* Must have the same size as the trigger element */
+    height: 32px;
+    width: 32px;
+}
+.navigation__content {
+    /*
+    Rotate it to make it displayed vertically
+    Replace -0deg with -60deg, -180deg, -240deg, -300deg for another item
+    in case you want to have a total of 6 menu items.
+    The formulation is -(360 / numberOfItems * indexOfItem)
+    */
+    transform: rotate(-0deg);
+
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.navigation__circle2 {
+    /* Position */
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 9999px; 
+    color: rgb(255, 255, 255); 
+
+  
+    transform: rotate(60deg) translateX(-80px);
+
+    /* Must have the same size as the trigger element */
+    height: 32px;
+    width: 32px;
+}
+.navigation__contentb {
+   
+    transform: rotate(-60deg);
+
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.navigation__circle3 {
+    /* Position */
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 9999px; 
+    color: rgb(255, 255, 255); 
+
+    /*
+    80px is the distance from the item to the trigger element.
+    Replace 0deg with 60deg, 180deg, 240deg, 300deg for another item
+    in case you want to have a total of 6 menu items.
+    The formulation is 360 / numberOfItems * indexOfItem
+    */
+    transform: rotate(120deg) translateX(-80px);
+
+    /* Must have the same size as the trigger element */
+    height: 32px;
+    width: 32px;
+}
+ 
+.navigation__contentc {
+    /*
+    Rotate it to make it displayed vertically
+    Replace -0deg with -60deg, -180deg, -240deg, -300deg for another item
+    in case you want to have a total of 6 menu items.
+    The formulation is -(360 / numberOfItems * indexOfItem)
+    */
+    transform: rotate(-120deg);
+
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.navigation__circle4 {
+    /* Position */
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 9999px; 
+    color: rgb(255, 255, 255); 
+
+  
+    transform: rotate(180deg) translateX(-80px);
+
+    /* Must have the same size as the trigger element */
+    height: 32px;
+    width: 32px;
+}
+
+.navigation__contentd {
+  
+    transform: rotate(-180deg);
+
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.navigation__circle5 {
+    /* Position */
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 9999px; 
+    color: rgb(255, 255, 255);    
+    transform: rotate(240deg) translateX(-80px);
+    /* Must have the same size as the trigger element */
+    height: 32px;
+    width: 32px;
+}
+
+.navigation__contente {
+  
+    transform: rotate(-240deg);
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.navigation__circle6 {
+    /* Position */
+    position: absolute;
+    top: 0;
+    background-color:rgba(0, 0, 0, 0.4);
+    border-radius: 9999px; 
+    color: rgb(255, 255, 255); 
+
+    /*
+    80px is the distance from the item to the trigger element.
+    Replace 0deg with 60deg, 180deg, 240deg, 300deg for another item
+    in case you want to have a total of 6 menu items.
+    The formulation is 360 / numberOfItems * indexOfItem
+    */
+    transform: rotate(300deg) translateX(-80px);
+
+    /* Must have the same size as the trigger element */
+    height: 32px;
+    width: 32px;
+}
+.navigation__contentf {
+    /*
+    Rotate it to make it displayed vertically
+    Replace -0deg with -60deg, -180deg, -240deg, -300deg for another item
+    in case you want to have a total of 6 menu items.
+    The formulation is -(360 / numberOfItems * indexOfItem)
+    */
+    transform: rotate(-300deg);
+
+
+    /* Center the content */
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    /* Take full size */
+    height: 100%;
+    width: 100%;
+}
+.footer {
+    position: sticky;
+    background-color: rgb(158, 157, 157);
+}
